@@ -43,7 +43,13 @@
         "🇫🇮 Helsinki WS CDN § 35",
         "🇫🇮 Helsinki WS CDN § 36",
         "🇫🇮 Helsinki WS CDN § 37",
-        "🇫🇮 Helsinki WS CDN § 38"
+        "🇫🇮 Helsinki WS CDN § 38",
+        "🇩🇪 Falkenstein GRPC CDN § 39",
+        "🇩🇪 Falkenstein WS CDN § 40",
+        "🇫🇮 Finland GRPC CDN § 41",
+        "🇫🇮 Finland WS CDN § 42",
+        "🇺🇸 Virginia GRPC CDN § 43",
+        "🇺🇸 Virginia WS CDN § 44"
       ],
       "default": "auto"
     },
@@ -89,7 +95,13 @@
         "🇫🇮 Helsinki WS CDN § 35",
         "🇫🇮 Helsinki WS CDN § 36",
         "🇫🇮 Helsinki WS CDN § 37",
-        "🇫🇮 Helsinki WS CDN § 38"
+        "🇫🇮 Helsinki WS CDN § 38",
+        "🇩🇪 Falkenstein GRPC CDN § 39",
+        "🇩🇪 Falkenstein WS CDN § 40",
+        "🇫🇮 Finland GRPC CDN § 41",
+        "🇫🇮 Finland WS CDN § 42",
+        "🇺🇸 Virginia GRPC CDN § 43",
+        "🇺🇸 Virginia WS CDN § 44"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -268,15 +280,15 @@
       "user": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
       "private_key": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUx\nOQAAACDpFLt7aWUKMc3Qb9cEf0oozRazfOLngE5ZNiTTDebWmAAAAIhisJNbYrCTWwAAAAtzc2gt\nZWQyNTUxOQAAACDpFLt7aWUKMc3Qb9cEf0oozRazfOLngE5ZNiTTDebWmAAAAEB4d7QnJpnn6uNg\nmI5hXI1Mdq2b7YrncG0mnlST4hMAgOkUu3tpZQoxzdBv1wR/SijNFrN84ueATlk2JNMN5taYAAAA\nAAECAwQF\n-----END OPENSSH PRIVATE KEY-----\n",
       "host_key": [
-        "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBI4AmgJcZqjSrudGJ2jNIxOVJMajGrfQKr7zizGOw9bG8DFf4aA1eZaRrh1Gaxbp73kkiVS4gyY+kkzhrxPL4Kg=",
-        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF+BcNScf4q88Cxhaz4BRz3PstvPZcXPQ8FoF+SG9AqO"
+        "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFqUHQF1k5Ki7CtNPQmq1U9Wt9Ki9VmYanmVNiWbCIpE0g+ADnhnP+rH8JV5rNftwX7FkKuNMRmdC5IVewPXIi4=",
+        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO00Ed7zweFy/7ZMFiFAfK/JbfSC+0D+f2/RHSKcfmAN"
       ]
     },
     {
       "type": "tuic",
       "tag": "🇺🇸 Virginia TUIC § 7",
       "server": "ashburn.raspberryip.com",
-      "server_port": 22032,
+      "server_port": 22028,
       "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
       "password": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
       "congestion_control": "cubic",
@@ -295,7 +307,7 @@
       "type": "hysteria2",
       "tag": "🇺🇸 Virginia Hysteria § 8",
       "server": "ashburn.raspberryip.com",
-      "server_port": 33221,
+      "server_port": 33217,
       "obfs": {
         "type": "salamander",
         "password": "dazc7dXmap7jh9"
@@ -1133,6 +1145,150 @@
         "path": "/yY1jeQeicCTCqP5Kpx4Go",
         "headers": {
           "Host": "helsinki.galaxy-res-dic.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Falkenstein GRPC CDN § 39",
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "uuid": "d3a59952-638e-4301-aa9e-b396fcdc85e9",
+      "tls": {
+        "enabled": true,
+        "server_name": "nuremberg.alpha-vpn.site",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "fhhoF0UeRkAayTl3LbsC",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Falkenstein WS CDN § 40",
+      "server": "nuremberg.alpha-vpn.site",
+      "server_port": 443,
+      "uuid": "d3a59952-638e-4301-aa9e-b396fcdc85e9",
+      "tls": {
+        "enabled": true,
+        "server_name": "nuremberg.alpha-vpn.site",
+        "alpn": "http/1.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fhhoF0UtMaiAjYHiL4E",
+        "headers": {
+          "Host": "nuremberg.alpha-vpn.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 Finland GRPC CDN § 41",
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "uuid": "62b912c9-3629-494b-8206-09b89f102385",
+      "tls": {
+        "enabled": true,
+        "server_name": "helsinki.alpha-vpn.site",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "yY1jeQei7h1T8ltLWZ",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 Finland WS CDN § 42",
+      "server": "helsinki.alpha-vpn.site",
+      "server_port": 443,
+      "uuid": "62b912c9-3629-494b-8206-09b89f102385",
+      "tls": {
+        "enabled": true,
+        "server_name": "helsinki.alpha-vpn.site",
+        "alpn": "http/1.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/yY1jeQeicCTCqP5Kpx4Go",
+        "headers": {
+          "Host": "helsinki.alpha-vpn.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 Virginia GRPC CDN § 43",
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
+      "tls": {
+        "enabled": true,
+        "server_name": "ashburn.alpha-vpn.site",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "bs55Ovr86OjhM4ByTpa",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 Virginia WS CDN § 44",
+      "server": "ashburn.alpha-vpn.site",
+      "server_port": 443,
+      "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
+      "tls": {
+        "enabled": true,
+        "server_name": "ashburn.alpha-vpn.site",
+        "alpn": "http/1.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/bs55Ovr86OzuubiHi",
+        "headers": {
+          "Host": "ashburn.alpha-vpn.site"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
