@@ -5,6 +5,10 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇬🇧 England GRPC CDN § 57",
+        "🇬🇧 England TLS H2 GRPC CDN § 58",
+        "🇬🇧 England TLS H2 GRPC CDN § 59",
+        "🇬🇧 England WS CDN § 60",
         "🇺🇸 Virginia WS CDN § 0",
         "🇺🇸 Virginia WS CDN § 1",
         "🇺🇸 Virginia WS CDN § 2",
@@ -13,7 +17,7 @@
         "🇺🇸 Virginia TCP HTTP § 5",
         "🇺🇸 Virginia SSH § 6",
         "🇺🇸 Virginia TUIC § 7",
-        "🇺🇸 Virginia Hysteria § 8",
+        "🇺🇸 Virginia HYSTERIA § 8",
         "🇺🇸 Ashburn WS CDN § 9",
         "🇺🇸 Ashburn WS CDN § 10",
         "🇺🇸 Ashburn WS CDN § 11",
@@ -26,7 +30,7 @@
         "🇩🇪 Falkenstein TCP HTTP § 18",
         "🇩🇪 Falkenstein SSH § 19",
         "🇩🇪 Falkenstein TUIC § 20",
-        "🇩🇪 Falkenstein Hysteria § 21",
+        "🇩🇪 Falkenstein HYSTERIA § 21",
         "🇩🇪 Nuremberg WS CDN § 22",
         "🇩🇪 Nuremberg WS CDN § 23",
         "🇩🇪 Nuremberg WS CDN § 24",
@@ -39,7 +43,7 @@
         "🇫🇮 Finland TCP HTTP § 31",
         "🇫🇮 Finland SSH § 32",
         "🇫🇮 Finland TUIC § 33",
-        "🇫🇮 Finland Hysteria § 34",
+        "🇫🇮 Finland HYSTERIA § 34",
         "🇫🇮 Helsinki WS CDN § 35",
         "🇫🇮 Helsinki WS CDN § 36",
         "🇫🇮 Helsinki WS CDN § 37",
@@ -49,7 +53,19 @@
         "🇫🇮 Finland GRPC CDN § 41",
         "🇫🇮 Finland WS CDN § 42",
         "🇺🇸 Virginia GRPC CDN § 43",
-        "🇺🇸 Virginia WS CDN § 44"
+        "🇺🇸 Virginia WS CDN § 44",
+        "🇩🇪 Falkenstein TLS HTTPUPGRADE § 45",
+        "🇩🇪 Falkenstein TLS GRPC § 46",
+        "🇩🇪 Falkenstein SHADOW TLS § 47",
+        "🇩🇪 Falkenstein TLS H2 SHADOW § 48",
+        "🇫🇮 Finland TLS HTTPUPGRADE § 49",
+        "🇫🇮 Finland TLS GRPC § 50",
+        "🇫🇮 Finland SHADOW TLS § 51",
+        "🇫🇮 Finland TLS H2 SHADOW § 52",
+        "🇺🇸 Virginia TLS HTTPUPGRADE § 53",
+        "🇺🇸 Virginia TLS GRPC § 54",
+        "🇺🇸 Virginia SHADOW TLS § 55",
+        "🇺🇸 Virginia TLS H2 SHADOW § 56"
       ],
       "default": "auto"
     },
@@ -57,6 +73,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇬🇧 England GRPC CDN § 57",
+        "🇬🇧 England TLS H2 GRPC CDN § 58",
+        "🇬🇧 England TLS H2 GRPC CDN § 59",
+        "🇬🇧 England WS CDN § 60",
         "🇺🇸 Virginia WS CDN § 0",
         "🇺🇸 Virginia WS CDN § 1",
         "🇺🇸 Virginia WS CDN § 2",
@@ -65,7 +85,7 @@
         "🇺🇸 Virginia TCP HTTP § 5",
         "🇺🇸 Virginia SSH § 6",
         "🇺🇸 Virginia TUIC § 7",
-        "🇺🇸 Virginia Hysteria § 8",
+        "🇺🇸 Virginia HYSTERIA § 8",
         "🇺🇸 Ashburn WS CDN § 9",
         "🇺🇸 Ashburn WS CDN § 10",
         "🇺🇸 Ashburn WS CDN § 11",
@@ -78,7 +98,7 @@
         "🇩🇪 Falkenstein TCP HTTP § 18",
         "🇩🇪 Falkenstein SSH § 19",
         "🇩🇪 Falkenstein TUIC § 20",
-        "🇩🇪 Falkenstein Hysteria § 21",
+        "🇩🇪 Falkenstein HYSTERIA § 21",
         "🇩🇪 Nuremberg WS CDN § 22",
         "🇩🇪 Nuremberg WS CDN § 23",
         "🇩🇪 Nuremberg WS CDN § 24",
@@ -91,7 +111,7 @@
         "🇫🇮 Finland TCP HTTP § 31",
         "🇫🇮 Finland SSH § 32",
         "🇫🇮 Finland TUIC § 33",
-        "🇫🇮 Finland Hysteria § 34",
+        "🇫🇮 Finland HYSTERIA § 34",
         "🇫🇮 Helsinki WS CDN § 35",
         "🇫🇮 Helsinki WS CDN § 36",
         "🇫🇮 Helsinki WS CDN § 37",
@@ -101,10 +121,152 @@
         "🇫🇮 Finland GRPC CDN § 41",
         "🇫🇮 Finland WS CDN § 42",
         "🇺🇸 Virginia GRPC CDN § 43",
-        "🇺🇸 Virginia WS CDN § 44"
+        "🇺🇸 Virginia WS CDN § 44",
+        "🇩🇪 Falkenstein TLS HTTPUPGRADE § 45",
+        "🇩🇪 Falkenstein TLS GRPC § 46",
+        "🇩🇪 Falkenstein SHADOW TLS § 47",
+        "🇩🇪 Falkenstein TLS H2 SHADOW § 48",
+        "🇫🇮 Finland TLS HTTPUPGRADE § 49",
+        "🇫🇮 Finland TLS GRPC § 50",
+        "🇫🇮 Finland SHADOW TLS § 51",
+        "🇫🇮 Finland TLS H2 SHADOW § 52",
+        "🇺🇸 Virginia TLS HTTPUPGRADE § 53",
+        "🇺🇸 Virginia TLS GRPC § 54",
+        "🇺🇸 Virginia SHADOW TLS § 55",
+        "🇺🇸 Virginia TLS H2 SHADOW § 56"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 England GRPC CDN § 57",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "5-10",
+        "sleep": "1-5"
+      },
+      "server": "eNGLANd.ALPha-VPN.sITe",
+      "server_port": 443,
+      "uuid": "427907d8-d27d-4087-ac09-b146ca8561f3",
+      "tls": {
+        "enabled": true,
+        "server_name": "ENglAnD.aLPhA-vpN.sItE",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "tls_tricks": {
+          "mixedcase_sni": true,
+          "padding_size": "5-10"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "8oSchPPdBPR2qi7B13CTRdpow",
+        "idle_timeout": "1m55s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇬🇧 England TLS H2 GRPC CDN § 58",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "5-10",
+        "sleep": "1-5"
+      },
+      "server": "eNGlaND.ALpHa-vPn.siTe",
+      "server_port": 443,
+      "password": "427907d8-d27d-4087-ac09-b146ca8561f3",
+      "tls": {
+        "enabled": true,
+        "server_name": "englAND.aLpha-VPN.SIte",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "tls_tricks": {
+          "mixedcase_sni": true,
+          "padding_size": "5-10"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "aitb0Mq1cQ2qi7B13CTRdpow",
+        "idle_timeout": "1m55s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇬🇧 England TLS H2 GRPC CDN § 59",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "5-10",
+        "sleep": "1-5"
+      },
+      "server": "ENgLANd.aLpha-vpn.SItE",
+      "server_port": 443,
+      "uuid": "427907d8-d27d-4087-ac09-b146ca8561f3",
+      "security": "chacha20-poly1305",
+      "tls": {
+        "enabled": true,
+        "server_name": "ENgLANd.AlPHA-VpN.SiTE",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "tls_tricks": {
+          "mixedcase_sni": true,
+          "padding_size": "5-10"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": "nJy4yLuV9T2qi7B13CTRdpow",
+        "idle_timeout": "1m55s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 England WS CDN § 60",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "5-10",
+        "sleep": "1-5"
+      },
+      "server": "ENglanD.AlpHA-VpN.sITE",
+      "server_port": 443,
+      "uuid": "427907d8-d27d-4087-ac09-b146ca8561f3",
+      "tls": {
+        "enabled": true,
+        "server_name": "ENglANd.alpHa-vPn.site",
+        "alpn": "http/1.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "tls_tricks": {
+          "mixedcase_sni": true,
+          "padding_size": "5-10"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/8oSchPPdBPRvNL5Z7e",
+        "headers": {
+          "Host": "england.alpha-vpn.site"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -305,7 +467,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇺🇸 Virginia Hysteria § 8",
+      "tag": "🇺🇸 Virginia HYSTERIA § 8",
       "server": "ashburn.raspberryip.com",
       "server_port": 33217,
       "obfs": {
@@ -653,7 +815,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇩🇪 Falkenstein Hysteria § 21",
+      "tag": "🇩🇪 Falkenstein HYSTERIA § 21",
       "server": "nuremberg.raspberryip.com",
       "server_port": 55486,
       "obfs": {
@@ -1001,7 +1163,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇫🇮 Finland Hysteria § 34",
+      "tag": "🇫🇮 Finland HYSTERIA § 34",
       "server": "helsinki.raspberryip.com",
       "server_port": 11818,
       "obfs": {
@@ -1293,6 +1455,306 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Falkenstein TLS HTTPUPGRADE § 45",
+      "server": "nuremberg.raspberryip.com",
+      "server_port": 443,
+      "uuid": "d3a59952-638e-4301-aa9e-b396fcdc85e9",
+      "tls": {
+        "enabled": true,
+        "server_name": "nuremberg.raspberryip.com",
+        "alpn": "http/1.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "httpupgrade",
+        "path": "/fhhoF0U9snFgS4hh5UA",
+        "headers": {
+          "Host": "nuremberg.raspberryip.com"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪 Falkenstein TLS GRPC § 46",
+      "server": "nuremberg.raspberryip.com",
+      "server_port": 443,
+      "uuid": "d3a59952-638e-4301-aa9e-b396fcdc85e9",
+      "security": "chacha20-poly1305",
+      "tls": {
+        "enabled": true,
+        "server_name": "nuremberg.raspberryip.com",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": "A2tCXDJTeRkAayTl3LbsC",
+        "idle_timeout": "1m55s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 Falkenstein SHADOW TLS § 47",
+      "detour": "🇩🇪 Falkenstein SHADOW TLS § 47 shadowtls-out §hide§",
+      "server": "",
+      "server_port": 0,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "ZmZlZWMxNDkyMThlNDJlZDlmMjc4NjkxNzUyYzk0YTI=:ZDNhNTk5NTI2MzhlNDMwMWFhOWViMzk2ZmNkYzg1ZTk=",
+      "udp_over_tcp": true
+    },
+    {
+      "type": "shadowtls",
+      "tag": "🇩🇪 Falkenstein SHADOW TLS § 47 shadowtls-out §hide§",
+      "server": "nuremberg.raspberryip.com",
+      "server_port": 443,
+      "version": 3,
+      "password": "ffeec149-218e-42ed-9f27-8691752c94a2",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.idsoftware.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 Falkenstein TLS H2 SHADOW § 48",
+      "detour": "🇩🇪 Falkenstein TLS H2 SHADOW § 48 shadowtls-out §hide§",
+      "server": "",
+      "server_port": 0,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "ZmZlZWMxNDkyMThlNDJlZDlmMjc4NjkxNzUyYzk0YTI=:ZDNhNTk5NTI2MzhlNDMwMWFhOWViMzk2ZmNkYzg1ZTk=",
+      "udp_over_tcp": true
+    },
+    {
+      "type": "shadowtls",
+      "tag": "🇩🇪 Falkenstein TLS H2 SHADOW § 48 shadowtls-out §hide§",
+      "server": "nuremberg.raspberryip.com",
+      "server_port": 443,
+      "version": 3,
+      "password": "ffeec149-218e-42ed-9f27-8691752c94a2",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.idsoftware.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 Finland TLS HTTPUPGRADE § 49",
+      "server": "helsinki.raspberryip.com",
+      "server_port": 443,
+      "uuid": "62b912c9-3629-494b-8206-09b89f102385",
+      "tls": {
+        "enabled": true,
+        "server_name": "helsinki.raspberryip.com",
+        "alpn": "http/1.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "httpupgrade",
+        "path": "/yY1jeQei1xnuXi4",
+        "headers": {
+          "Host": "helsinki.raspberryip.com"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇮 Finland TLS GRPC § 50",
+      "server": "helsinki.raspberryip.com",
+      "server_port": 443,
+      "uuid": "62b912c9-3629-494b-8206-09b89f102385",
+      "security": "chacha20-poly1305",
+      "tls": {
+        "enabled": true,
+        "server_name": "helsinki.raspberryip.com",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": "d8Mg0XtTEG6wjF7h1T8ltLWZ",
+        "idle_timeout": "1m55s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇮 Finland SHADOW TLS § 51",
+      "detour": "🇫🇮 Finland SHADOW TLS § 51 shadowtls-out §hide§",
+      "server": "",
+      "server_port": 0,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "NGM1MTVmZDJmMzdmNDBmZmFiNTQyYjMzZGRmZDE4NGY=:NjJiOTEyYzkzNjI5NDk0YjgyMDYwOWI4OWYxMDIzODU=",
+      "udp_over_tcp": true
+    },
+    {
+      "type": "shadowtls",
+      "tag": "🇫🇮 Finland SHADOW TLS § 51 shadowtls-out §hide§",
+      "server": "helsinki.raspberryip.com",
+      "server_port": 443,
+      "version": 3,
+      "password": "4c515fd2-f37f-40ff-ab54-2b33ddfd184f",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ultimate-anonymity.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇮 Finland TLS H2 SHADOW § 52",
+      "detour": "🇫🇮 Finland TLS H2 SHADOW § 52 shadowtls-out §hide§",
+      "server": "",
+      "server_port": 0,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "NGM1MTVmZDJmMzdmNDBmZmFiNTQyYjMzZGRmZDE4NGY=:NjJiOTEyYzkzNjI5NDk0YjgyMDYwOWI4OWYxMDIzODU=",
+      "udp_over_tcp": true
+    },
+    {
+      "type": "shadowtls",
+      "tag": "🇫🇮 Finland TLS H2 SHADOW § 52 shadowtls-out §hide§",
+      "server": "helsinki.raspberryip.com",
+      "server_port": 443,
+      "version": 3,
+      "password": "4c515fd2-f37f-40ff-ab54-2b33ddfd184f",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ultimate-anonymity.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 Virginia TLS HTTPUPGRADE § 53",
+      "server": "ashburn.raspberryip.com",
+      "server_port": 443,
+      "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
+      "tls": {
+        "enabled": true,
+        "server_name": "ashburn.raspberryip.com",
+        "alpn": "http/1.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "httpupgrade",
+        "path": "/bs55Ovr86OBZGxbMwHKD9UR",
+        "headers": {
+          "Host": "ashburn.raspberryip.com"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 Virginia TLS GRPC § 54",
+      "server": "ashburn.raspberryip.com",
+      "server_port": 443,
+      "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
+      "security": "chacha20-poly1305",
+      "tls": {
+        "enabled": true,
+        "server_name": "ashburn.raspberryip.com",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": "r1qRz365EjjjhM4ByTpa",
+        "idle_timeout": "1m55s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 Virginia SHADOW TLS § 55",
+      "detour": "🇺🇸 Virginia SHADOW TLS § 55 shadowtls-out §hide§",
+      "server": "",
+      "server_port": 0,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "MmQzZWM4NWFjOWEwNGZmNWJlODg5NWJiMjFhYzhhMDI=:ZjNiNjIyZDQwOGJiNDdiNDk2MDY3ZGFmZDYwNzFjNzM=",
+      "udp_over_tcp": true
+    },
+    {
+      "type": "shadowtls",
+      "tag": "🇺🇸 Virginia SHADOW TLS § 55 shadowtls-out §hide§",
+      "server": "ashburn.raspberryip.com",
+      "server_port": 443,
+      "version": 3,
+      "password": "2d3ec85a-c9a0-4ff5-be88-95bb21ac8a02",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.fondationdefrance.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 Virginia TLS H2 SHADOW § 56",
+      "detour": "🇺🇸 Virginia TLS H2 SHADOW § 56 shadowtls-out §hide§",
+      "server": "",
+      "server_port": 0,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "MmQzZWM4NWFjOWEwNGZmNWJlODg5NWJiMjFhYzhhMDI=:ZjNiNjIyZDQwOGJiNDdiNDk2MDY3ZGFmZDYwNzFjNzM=",
+      "udp_over_tcp": true
+    },
+    {
+      "type": "shadowtls",
+      "tag": "🇺🇸 Virginia TLS H2 SHADOW § 56 shadowtls-out §hide§",
+      "server": "ashburn.raspberryip.com",
+      "server_port": 443,
+      "version": 3,
+      "password": "2d3ec85a-c9a0-4ff5-be88-95bb21ac8a02",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.fondationdefrance.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "dns",
