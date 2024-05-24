@@ -144,7 +144,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "ping.pe",
+      "server": "ENglANd.alpHa-vPn.site",
       "server_port": 443,
       "uuid": "427907d8-d27d-4087-ac09-b146ca8561f3",
       "tls": {
@@ -176,7 +176,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "ping.pe",
+      "server": "ENglANd.alpHa-vPn.site",
       "server_port": 443,
       "password": "427907d8-d27d-4087-ac09-b146ca8561f3",
       "tls": {
@@ -207,7 +207,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "cdnjs.com",
+      "server": "ENglANd.alpHa-vPn.site",
       "server_port": 443,
       "uuid": "427907d8-d27d-4087-ac09-b146ca8561f3",
       "security": "chacha20-poly1305",
@@ -240,7 +240,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "cdnjs.com",
+      "server": "ENglANd.alpHa-vPn.site",
       "server_port": 443,
       "uuid": "427907d8-d27d-4087-ac09-b146ca8561f3",
       "tls": {
@@ -298,7 +298,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "ping.pe",
+      "server": "fRaNce.aLpha-vpN.Site",
       "server_port": 443,
       "uuid": "63b5806b-1722-4a66-b779-3fe25ead1e7c",
       "tls": {
@@ -329,7 +329,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "ping.pe",
+      "server": "fRaNce.aLpha-vpN.Site",
       "server_port": 443,
       "uuid": "63b5806b-1722-4a66-b779-3fe25ead1e7c",
       "security": "chacha20-poly1305",
@@ -361,7 +361,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "cdnjs.com",
+      "server": "fRaNce.aLpha-vpN.Site",
       "server_port": 443,
       "uuid": "63b5806b-1722-4a66-b779-3fe25ead1e7c",
       "security": "chacha20-poly1305",
@@ -393,7 +393,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "cdnjs.com",
+      "server": "fRanCe.alPHa-vPn.sItE",
       "server_port": 443,
       "uuid": "63b5806b-1722-4a66-b779-3fe25ead1e7c",
       "tls": {
@@ -426,7 +426,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "ping.pe",
+      "server": "De.ALpha-vpN.sITe",
       "server_port": 443,
       "uuid": "663adf6d-a2e8-49a3-f562-67857a83ec0c",
       "tls": {
@@ -456,7 +456,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "ping.pe",
+      "server": "De.ALpha-vpN.sITe",
       "server_port": 443,
       "uuid": "2763c820-432d-4c9c-d7da-c935bf56ba07",
       "tls": {
@@ -504,7 +504,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "cdnjs.com",
+      "server": "nL.ALpha-vPn.Site",
       "server_port": 443,
       "uuid": "89083966-8473-4823-a309-4f9e3e58cf70",
       "tls": {
@@ -534,7 +534,7 @@
         "size": "5-10",
         "sleep": "1-5"
       },
-      "server": "cdnjs.com",
+      "server": "nL.ALpha-vPn.Site",
       "server_port": 443,
       "uuid": "608c6107-6c18-4de0-cad8-98ab8033abc2",
       "tls": {
@@ -1213,12 +1213,12 @@
     {
       "type": "vless",
       "tag": "🇩🇪 Falkenstein GRPC CDN § 39",
-      "server": "cdnjs.com",
+      "server": "nURemBerg.alPha-vPn.Site",
       "server_port": 443,
       "uuid": "d3a59952-638e-4301-aa9e-b396fcdc85e9",
       "tls": {
         "enabled": true,
-        "server_name": "nuremberg.alpha-vpn.site",
+        "server_name": "nURemBerg.alPha-vPn.Site",
         "alpn": "h2",
         "utls": {
           "enabled": true,
@@ -1236,7 +1236,7 @@
     {
       "type": "vless",
       "tag": "🇩🇪 Falkenstein WS CDN § 40",
-      "server": "ping.pe",
+      "server": "nUreMberG.aLphA-vPN.sITe",
       "server_port": 443,
       "uuid": "d3a59952-638e-4301-aa9e-b396fcdc85e9",
       "tls": {
@@ -1261,7 +1261,7 @@
     {
       "type": "vless",
       "tag": "🇫🇮 Finland GRPC CDN § 41",
-      "server": "cdnjs.com",
+      "server": "HelsiNkI.alPHA-Vpn.siTE",
       "server_port": 443,
       "uuid": "62b912c9-3629-494b-8206-09b89f102385",
       "tls": {
@@ -1284,7 +1284,7 @@
     {
       "type": "vless",
       "tag": "🇫🇮 Finland WS CDN § 42",
-      "server": "ping.pe",
+      "server": "HelsiNkI.alPHA-Vpn.siTE",
       "server_port": 443,
       "uuid": "62b912c9-3629-494b-8206-09b89f102385",
       "tls": {
@@ -1309,7 +1309,7 @@
     {
       "type": "vless",
       "tag": "🇺🇸 Virginia GRPC CDN § 43",
-      "server": "cdnjs.com",
+      "server": "asHBurn.ALpha-Vpn.sitE",
       "server_port": 443,
       "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
       "tls": {
@@ -1332,7 +1332,7 @@
     {
       "type": "vless",
       "tag": "🇺🇸 Virginia WS CDN § 44",
-      "server": "ping.pe",
+      "server": "asHBurn.ALpha-Vpn.sitE",
       "server_port": 443,
       "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
       "tls": {
