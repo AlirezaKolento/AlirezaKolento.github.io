@@ -139,25 +139,16 @@
     {
       "type": "vless",
       "tag": "🇬🇧 England GRPC CDN § 57",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "ENglANd.alpHa-vPn.site",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "427907d8-d27d-4087-ac09-b146ca8561f3",
       "tls": {
         "enabled": true,
-        "server_name": "ENglAnD.aLPhA-vpN.sItE",
+        "server_name": "ENglAnD.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "h2",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -171,25 +162,16 @@
     {
       "type": "trojan",
       "tag": "🇬🇧 England TLS H2 GRPC CDN § 58",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "ENglANd.alpHa-vPn.site",
+      "server": "zula.ir",
       "server_port": 443,
       "password": "427907d8-d27d-4087-ac09-b146ca8561f3",
       "tls": {
         "enabled": true,
-        "server_name": "englAND.aLpha-VPN.SIte",
+        "server_name": "englAND.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "h2",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -202,26 +184,17 @@
     {
       "type": "vmess",
       "tag": "🇬🇧 England TLS H2 GRPC CDN § 59",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "ENglANd.alpHa-vPn.site",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "427907d8-d27d-4087-ac09-b146ca8561f3",
       "security": "chacha20-poly1305",
       "tls": {
         "enabled": true,
-        "server_name": "ENgLANd.AlPHA-VpN.SiTE",
+        "server_name": "ENgLANd.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "h2",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "packet_encoding": "xudp",
@@ -235,32 +208,23 @@
     {
       "type": "vless",
       "tag": "🇬🇧 England WS CDN § 60",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "ENglANd.alpHa-vPn.site",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "427907d8-d27d-4087-ac09-b146ca8561f3",
       "tls": {
         "enabled": true,
-        "server_name": "ENglANd.alpHa-vPn.site",
+        "server_name": "ENglANd.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "http/1.1",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
         "type": "ws",
         "path": "/8oSchPPdBPRvNL5Z7e",
         "headers": {
-          "Host": "england.alpha-vpn.site"
+          "Host": "england.xn--o39ap1aq6zfxb14v.shop"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -293,24 +257,16 @@
     {
       "type": "vless",
       "tag": "🇫🇷 France GRPC CDN § 68",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "fRaNce.aLpha-vpN.Site",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "63b5806b-1722-4a66-b779-3fe25ead1e7c",
       "tls": {
         "enabled": true,
-        "server_name": "fRanCe.AlpHa-vPn.sIte",
+        "server_name": "fRanCe.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "h2",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -324,25 +280,17 @@
     {
       "type": "vmess",
       "tag": "🇫🇷 France TLS H2 GRPC CDN § 69",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "fRaNce.aLpha-vpN.Site",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "63b5806b-1722-4a66-b779-3fe25ead1e7c",
       "security": "chacha20-poly1305",
       "tls": {
         "enabled": true,
-        "server_name": "fRaNce.aLpha-vpN.Site",
+        "server_name": "fRaNce.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "h2",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "padding_size": "5-10"
         }
       },
       "packet_encoding": "xudp",
@@ -356,25 +304,17 @@
     {
       "type": "vmess",
       "tag": "🇫🇷 France TLS H2 GRPC CDN § 70",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "fRaNce.aLpha-vpN.Site",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "63b5806b-1722-4a66-b779-3fe25ead1e7c",
       "security": "chacha20-poly1305",
       "tls": {
         "enabled": true,
-        "server_name": "frAncE.alpha-vPn.SitE",
+        "server_name": "frAncE.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "h2",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "padding_size": "5-10"
         }
       },
       "packet_encoding": "xudp",
@@ -388,31 +328,23 @@
     {
       "type": "vless",
       "tag": "🇫🇷 France WS CDN § 71",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "fRanCe.alPHa-vPn.sItE",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "63b5806b-1722-4a66-b779-3fe25ead1e7c",
       "tls": {
         "enabled": true,
-        "server_name": "fRanCe.alPHa-vPn.sItE",
+        "server_name": "fRanCe.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "http/1.1",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "padding_size": "5-10"
         }
       },
       "transport": {
         "type": "ws",
         "path": "/CBP24lLEfmvF8snC9U6w19bru",
         "headers": {
-          "Host": "france.alpha-vpn.site"
+          "Host": "france.xn--o39ap1aq6zfxb14v.shop"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -421,17 +353,12 @@
     {
       "type": "vless",
       "tag": "🇩🇪 Frankfurt WS CDN § 61",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "De.ALpha-vpN.sITe",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "663adf6d-a2e8-49a3-f562-67857a83ec0c",
       "tls": {
         "enabled": true,
-        "server_name": "De.ALpha-vpN.sITe",
+        "server_name": "De.alpHA-vPn.SIte",
         "alpn": "http/1.1",
         "utls": {
           "enabled": true,
@@ -442,7 +369,7 @@
         "type": "ws",
         "path": "/13467",
         "headers": {
-          "Host": "de.alpha-vpn.site"
+          "Host": "dealpha-vpn.site"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -451,17 +378,12 @@
     {
       "type": "vless",
       "tag": "🇩🇪 Frankfurt GRPC CDN § 62",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "De.ALpha-vpN.sITe",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "2763c820-432d-4c9c-d7da-c935bf56ba07",
       "tls": {
         "enabled": true,
-        "server_name": "dE-grPc.alPhA-vPn.sIte",
+        "server_name": "dE-grPc.alpHA-vPn.SIte",
         "alpn": "h2",
         "utls": {
           "enabled": true,
@@ -499,17 +421,12 @@
     {
       "type": "vless",
       "tag": "🇳🇱 Amsterdam WS CDN § 64",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "nL.ALpha-vPn.Site",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "89083966-8473-4823-a309-4f9e3e58cf70",
       "tls": {
         "enabled": true,
-        "server_name": "nL.ALpha-vPn.Site",
+        "server_name": "nL.alpHA-vPn.SIte",
         "alpn": "http/1.1",
         "utls": {
           "enabled": true,
@@ -529,17 +446,12 @@
     {
       "type": "vless",
       "tag": "🇳🇱 Amsterdam GRPC CDN § 65",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
-      "server": "nL.ALpha-vPn.Site",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "608c6107-6c18-4de0-cad8-98ab8033abc2",
       "tls": {
         "enabled": true,
-        "server_name": "nl-gRpC.alpha-VPn.sIte",
+        "server_name": "nl-gRpC.alpHA-vPn.SIte",
         "alpn": "h2",
         "utls": {
           "enabled": true,
@@ -577,11 +489,6 @@
     {
       "type": "vless",
       "tag": "🇺🇸 Ashburn WS CDN § 0",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
       "server": "AshbUrN.omEga-diC.worKers.deV",
       "server_port": 443,
       "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
@@ -592,10 +499,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -611,11 +514,6 @@
     {
       "type": "vless",
       "tag": "🇺🇸 Ashburn WS CDN § 10",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
       "server": "ASHbURn.dIgITal-ReS-DIc.WoRkERS.dEV",
       "server_port": 443,
       "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
@@ -626,10 +524,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -645,11 +539,6 @@
     {
       "type": "vless",
       "tag": "🇺🇸 Ashburn WS CDN § 1",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
       "server": "aShbuRn.fzaHirI056.WorkeRs.Dev",
       "server_port": 443,
       "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
@@ -660,10 +549,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -789,11 +674,6 @@
     {
       "type": "vless",
       "tag": "🇩🇪 Nuremberg WS CDN § 13",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
       "server": "NurEmbeRG.qUickPIng7.WoRkErS.dEv",
       "server_port": 443,
       "uuid": "d3a59952-638e-4301-aa9e-b396fcdc85e9",
@@ -804,10 +684,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -823,11 +699,6 @@
     {
       "type": "vless",
       "tag": "🇩🇪 Nuremberg WS CDN § 24",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
       "server": "nuRemBErg.digiTAl-reS-dIc.workERs.Dev",
       "server_port": 443,
       "uuid": "d3a59952-638e-4301-aa9e-b396fcdc85e9",
@@ -838,10 +709,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -857,11 +724,6 @@
     {
       "type": "vless",
       "tag": "🇩🇪 Nuremberg WS CDN § 22",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
       "server": "NurEmbeRg.GalaXY-rEs-dic.wOrkers.DeV",
       "server_port": 443,
       "uuid": "d3a59952-638e-4301-aa9e-b396fcdc85e9",
@@ -872,10 +734,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -1001,11 +859,6 @@
     {
       "type": "vless",
       "tag": "🇫🇮 Helsinki WS CDN § 35",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
       "server": "hElsiNki.gAlaxy-vPN-2023.workErs.deV",
       "server_port": 443,
       "uuid": "62b912c9-3629-494b-8206-09b89f102385",
@@ -1016,10 +869,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -1035,11 +884,6 @@
     {
       "type": "vless",
       "tag": "🇫🇮 Helsinki WS CDN § 36",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
       "server": "helSInkI.diGital-rEs-diC.wOrkers.Dev",
       "server_port": 443,
       "uuid": "62b912c9-3629-494b-8206-09b89f102385",
@@ -1050,10 +894,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -1069,11 +909,6 @@
     {
       "type": "vless",
       "tag": "🇫🇮 Helsinki WS CDN § 37",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "5-10",
-        "sleep": "1-5"
-      },
       "server": "heLsinKi.xBOy-galaxy.worKers.Dev",
       "server_port": 443,
       "uuid": "62b912c9-3629-494b-8206-09b89f102385",
@@ -1084,10 +919,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "tls_tricks": {
-          "mixedcase_sni": true,
-          "padding_size": "5-10"
         }
       },
       "transport": {
@@ -1213,12 +1044,12 @@
     {
       "type": "vless",
       "tag": "🇩🇪 Falkenstein GRPC CDN § 39",
-      "server": "nURemBerg.alPha-vPn.Site",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "d3a59952-638e-4301-aa9e-b396fcdc85e9",
       "tls": {
         "enabled": true,
-        "server_name": "nURemBerg.alPha-vPn.Site",
+        "server_name": "nURemBerg.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "h2",
         "utls": {
           "enabled": true,
@@ -1236,12 +1067,12 @@
     {
       "type": "vless",
       "tag": "🇩🇪 Falkenstein WS CDN § 40",
-      "server": "nUreMberG.aLphA-vPN.sITe",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "d3a59952-638e-4301-aa9e-b396fcdc85e9",
       "tls": {
         "enabled": true,
-        "server_name": "nUreMberG.aLphA-vPN.sITe",
+        "server_name": "nUreMberG.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "http/1.1",
         "utls": {
           "enabled": true,
@@ -1252,7 +1083,7 @@
         "type": "ws",
         "path": "/fhhoF0UtMaiAjYHiL4E",
         "headers": {
-          "Host": "nuremberg.alpha-vpn.site"
+          "Host": "nuremberg.xn--o39ap1aq6zfxb14v.shop"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -1261,12 +1092,12 @@
     {
       "type": "vless",
       "tag": "🇫🇮 Finland GRPC CDN § 41",
-      "server": "HelsiNkI.alPHA-Vpn.siTE",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "62b912c9-3629-494b-8206-09b89f102385",
       "tls": {
         "enabled": true,
-        "server_name": "HelsiNkI.alPHA-Vpn.siTE",
+        "server_name": "HelsiNkI.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "h2",
         "utls": {
           "enabled": true,
@@ -1284,12 +1115,12 @@
     {
       "type": "vless",
       "tag": "🇫🇮 Finland WS CDN § 42",
-      "server": "HelsiNkI.alPHA-Vpn.siTE",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "62b912c9-3629-494b-8206-09b89f102385",
       "tls": {
         "enabled": true,
-        "server_name": "hELsinKI.alpHa-vPn.sItE",
+        "server_name": "hELsinKI.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "http/1.1",
         "utls": {
           "enabled": true,
@@ -1300,7 +1131,7 @@
         "type": "ws",
         "path": "/yY1jeQeicCTCqP5Kpx4Go",
         "headers": {
-          "Host": "helsinki.alpha-vpn.site"
+          "Host": "helsinki.xn--o39ap1aq6zfxb14v.shop"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -1309,12 +1140,12 @@
     {
       "type": "vless",
       "tag": "🇺🇸 Virginia GRPC CDN § 43",
-      "server": "asHBurn.ALpha-Vpn.sitE",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
       "tls": {
         "enabled": true,
-        "server_name": "asHBurn.ALpha-Vpn.sitE",
+        "server_name": "asHBurn.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "h2",
         "utls": {
           "enabled": true,
@@ -1332,12 +1163,12 @@
     {
       "type": "vless",
       "tag": "🇺🇸 Virginia WS CDN § 44",
-      "server": "asHBurn.ALpha-Vpn.sitE",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
       "tls": {
         "enabled": true,
-        "server_name": "aShbURn.alpHA-vPn.SIte",
+        "server_name": "aShbURn.xn--o39aP1aq6zfXb14V.ShOp",
         "alpn": "http/1.1",
         "utls": {
           "enabled": true,
@@ -1348,7 +1179,7 @@
         "type": "ws",
         "path": "/bs55Ovr86OzuubiHi",
         "headers": {
-          "Host": "ashburn.alpha-vpn.site"
+          "Host": "ashburn.xn--o39ap1aq6zfxb14v.shop"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -1667,8 +1498,8 @@
       "tag": "direct-fragment",
       "tls_fragment": {
         "enabled": true,
-        "size": "1-500",
-        "sleep": "0-500"
+        "size": "5-10",
+        "sleep": "1-5"
       }
     },
     {
