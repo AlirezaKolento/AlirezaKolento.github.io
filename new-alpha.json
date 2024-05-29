@@ -40,6 +40,8 @@
           "zula.ir",
           "zula.ir",
           "fr.raspberryip.com",
+          "fr.raspberryip.com",
+          "fr.raspberryip.com",
           "zula.ir",
           "zula.ir",
           "zula.ir",
@@ -107,14 +109,14 @@
     "final": "dns-remote",
     "static_ips": {
       "sky.rethinkdns.com": [
-        "188.114.97.6",
-        "188.114.96.6",
-        "2a06:98c1:3121::6",
-        "2a06:98c1:3120::6",
+        "188.114.99.0",
+        "188.114.98.0",
+        "2a06:98c1:3121::3",
+        "2a06:98c1:3120::3",
         "104.18.203.232",
         "104.18.202.232",
-        "188.114.97.6",
-        "188.114.96.6",
+        "188.114.96.7",
+        "188.114.97.7",
         "2a06:98c1:3120::3",
         "2a06:98c1:3121::3"
       ]
@@ -160,6 +162,8 @@
         "🇬🇧 England TLS H2 GRPC CDN § 58",
         "🇬🇧 England TLS H2 GRPC CDN § 59",
         "🇬🇧 England WS CDN § 60",
+        "🇫🇷 France TLS H2 WS TROJAN § 72",
+        "🇫🇷 France TLS H2 WS VMESS § 73",
         "🇫🇷 France TLS HTTPUPGRADE § 67",
         "🇫🇷 France GRPC CDN § 68",
         "🇫🇷 France TLS H2 GRPC CDN § 69",
@@ -227,6 +231,8 @@
         "🇬🇧 England TLS H2 GRPC CDN § 58",
         "🇬🇧 England TLS H2 GRPC CDN § 59",
         "🇬🇧 England WS CDN § 60",
+        "🇫🇷 France TLS H2 WS TROJAN § 72",
+        "🇫🇷 France TLS H2 WS VMESS § 73",
         "🇫🇷 France TLS HTTPUPGRADE § 67",
         "🇫🇷 France GRPC CDN § 68",
         "🇫🇷 France TLS H2 GRPC CDN § 69",
@@ -380,6 +386,55 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 France TLS H2 WS TROJAN § 72",
+      "server": "fr.raspberryip.com",
+      "server_port": 443,
+      "password": "63b5806b-1722-4a66-b779-3fe25ead1e7c",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.raspberryip.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/mTYqDf1EvF8snC9U6w19bru",
+        "headers": {
+          "Host": "fr.raspberryip.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷 France TLS H2 WS VMESS § 73",
+      "server": "fr.raspberryip.com",
+      "server_port": 443,
+      "uuid": "63b5806b-1722-4a66-b779-3fe25ead1e7c",
+      "security": "chacha20-poly1305",
+      "authenticated_length": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.raspberryip.com",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/D3S4ybLRWtfdXvF8snC9U6w19bru",
+        "headers": {
+          "Host": "fr.raspberryip.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
       "type": "vless",
