@@ -35,6 +35,16 @@
     "rules": [
       {
         "domain": [
+          "cloud.galaxy-omega-alpha.workers.dev",
+          "wp10.yotruzirda.workers.dev",
+          "wp809.colmavoyde.workers.dev",
+          "wp808.lilmerikke.workers.dev",
+          "wp807.liknenikni.workers.dev",
+          "wp806.haydazaspu.workers.dev",
+          "wp805.fustabomlo.workers.dev",
+          "wp804.lufyagiltu.workers.dev",
+          "wp803.murkumolme.workers.dev",
+          "mode802.varoda6620-c6f.workers.dev",
           "zula.ir",
           "zula.ir",
           "zula.ir",
@@ -109,16 +119,16 @@
     "final": "dns-remote",
     "static_ips": {
       "sky.rethinkdns.com": [
-        "188.114.99.0",
-        "188.114.98.0",
+        "188.114.97.6",
+        "188.114.96.6",
         "2a06:98c1:3121::3",
         "2a06:98c1:3120::3",
-        "104.18.203.232",
-        "104.18.202.232",
-        "188.114.96.7",
-        "188.114.97.7",
-        "2a06:98c1:3120::3",
-        "2a06:98c1:3121::3"
+        "104.17.148.22",
+        "104.17.147.22",
+        "188.114.97.6",
+        "188.114.96.6",
+        "2a06:98c1:3120::6",
+        "2a06:98c1:3121::6"
       ]
     },
     "independent_cache": true
@@ -158,6 +168,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🗺 VLESS WS § 100",
+        "🗺 VLESS WS § 101",
+        "🗺 VLESS WS § 102",
+        "🗺 VLESS WS § 103",
+        "🗺 VLESS WS § 104",
+        "🗺 VLESS WS § 105",
+        "🗺 VLESS WS § 106",
+        "🗺 VLESS WS § 107",
+        "🗺 VLESS WS § 108",
+        "🗺 VLESS WS § 109",
         "🇬🇧 England GRPC CDN § 57",
         "🇬🇧 England TLS H2 GRPC CDN § 58",
         "🇬🇧 England TLS H2 GRPC CDN § 59",
@@ -227,6 +247,16 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🗺 VLESS WS § 100",
+        "🗺 VLESS WS § 101",
+        "🗺 VLESS WS § 102",
+        "🗺 VLESS WS § 103",
+        "🗺 VLESS WS § 104",
+        "🗺 VLESS WS § 105",
+        "🗺 VLESS WS § 106",
+        "🗺 VLESS WS § 107",
+        "🗺 VLESS WS § 108",
+        "🗺 VLESS WS § 109",
         "🇬🇧 England GRPC CDN § 57",
         "🇬🇧 England TLS H2 GRPC CDN § 58",
         "🇬🇧 England TLS H2 GRPC CDN § 59",
@@ -292,6 +322,176 @@
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
+    },
+    {
+      "type": "vless",
+      "tag": "🗺 VLESS WS § 100",
+      "server": "cloud.galaxy-omega-alpha.workers.dev",
+      "server_port": 80,
+      "uuid": "c9bbb045-600b-587d-b68f-589c6bc22c56",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-ws/",
+        "headers": {
+          "Host": "cloud.galaxy-omega-alpha.WOrkErS.dEv"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🗺 VLESS WS § 101",
+      "server": "wp10.yotruzirda.workers.dev",
+      "server_port": 80,
+      "uuid": "d04247af-4417-5db0-887f-afdf9d5fdeb1",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-ws/",
+        "headers": {
+          "Host": "wp10.yotruzirda.worKERs.deV"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🗺 VLESS WS § 102",
+      "server": "wp809.colmavoyde.workers.dev",
+      "server_port": 80,
+      "uuid": "843e8c8b-ef98-5594-9b8f-611b0e57a961",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-ws/",
+        "headers": {
+          "Host": "wp809.colmavoyde.woRkERS.DeV"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🗺 VLESS WS § 103",
+      "server": "wp808.lilmerikke.workers.dev",
+      "server_port": 80,
+      "uuid": "2ef28ac3-af77-597b-849c-f8217ee30105",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-ws/",
+        "headers": {
+          "Host": "wp808.lilmerikke.WORKERS.dEV"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🗺 VLESS WS § 104",
+      "server": "wp807.liknenikni.workers.dev",
+      "server_port": 80,
+      "uuid": "321839b9-a1e0-5f2a-ac31-4ed10a209b99",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-ws/",
+        "headers": {
+          "Host": "wp807.liknenikni.wOrkErS.dEv"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🗺 VLESS WS § 105",
+      "server": "wp806.haydazaspu.workers.dev",
+      "server_port": 80,
+      "uuid": "9f7bbc98-52ef-5394-9d99-c03a517f2d33",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-ws/",
+        "headers": {
+          "Host": "wp806.haydazaspu.woRkeRS.deV"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🗺 VLESS WS § 106",
+      "server": "wp805.fustabomlo.workers.dev",
+      "server_port": 80,
+      "uuid": "ce35de03-fe72-51ca-9864-14603f61fd23",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-ws/",
+        "headers": {
+          "Host": "wp805.fustabomlo.woRKErs.DEV"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🗺 VLESS WS § 107",
+      "server": "wp804.lufyagiltu.workers.dev",
+      "server_port": 80,
+      "uuid": "93b60972-c97e-5982-b207-57c3223fc11b",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-ws/",
+        "headers": {
+          "Host": "wp804.lufyagiltu.WorKERS.DEV"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🗺 VLESS WS § 108",
+      "server": "wp803.murkumolme.workers.dev",
+      "server_port": 80,
+      "uuid": "3ecf1a21-145c-561a-8054-7c82afa3f992",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-ws/",
+        "headers": {
+          "Host": "wp803.murkumolme.wORkers.DEv"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🗺 VLESS WS § 109",
+      "server": "mode802.varoda6620-c6f.workers.dev",
+      "server_port": 80,
+      "uuid": "c057d700-eab8-589e-9982-2cfda829d0d8",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-ws/",
+        "headers": {
+          "Host": "mode802.varoda6620-c6f.workERS.DeV"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
       "type": "vless",
